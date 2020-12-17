@@ -1,19 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
+using PizzaWorld.Domain.Models;
+using PizzaWorld.Domain.Singletons;
 
-namespace PizzaWorld.Client using PizzaWorld.Domain.Models
+namespace PizzaWorld.Client
 {
     class Program 
     {
         static void Main(string[] args)
         {
-            PrintAllStores();
+            var cs = new Singleton(); 
+            cs.MakeAStore();
         }
 
         static IEnumerable<Store> GetAllStores() 
         {
             
-            return new List<Store>();
+            return new List<Store>() 
+            {
+                new Store(), new Store()
+            };
         }
 
         static void PrintAllStores() 
