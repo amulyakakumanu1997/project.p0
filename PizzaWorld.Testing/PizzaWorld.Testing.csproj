@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PizzaWorld.Client\PizzaWorld.Client.csproj" />
     <ProjectReference Include="..\PizzaWorld.Domain\PizzaWorld.Domain.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,12 @@
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/bin/Debug/net5.0/PizzaWorld.Domain.deps.json
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/bin/Debug/net5.0/PizzaWorld.Domain.dll
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/bin/Debug/net5.0/ref/PizzaWorld.Domain.dll
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/bin/Debug/net5.0/PizzaWorld.Domain.pdb
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/obj/Debug/net5.0/PizzaWorld.Domain.csprojAssemblyReference.cache
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/obj/Debug/net5.0/PizzaWorld.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/obj/Debug/net5.0/PizzaWorld.Domain.AssemblyInfoInputs.cache
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/obj/Debug/net5.0/PizzaWorld.Domain.AssemblyInfo.cs
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/obj/Debug/net5.0/PizzaWorld.Domain.csproj.CoreCompileInputs.cache
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/obj/Debug/net5.0/PizzaWorld.Domain.dll
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/obj/Debug/net5.0/ref/PizzaWorld.Domain.dll
+/Users/amulyakakumanu/Desktop/revature/projects/p0/PizzaWorld.Domain/obj/Debug/net5.0/PizzaWorld.Domain.pdb
