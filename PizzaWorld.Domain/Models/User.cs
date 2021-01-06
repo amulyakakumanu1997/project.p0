@@ -12,8 +12,8 @@ namespace PizzaWorld.Domain.Models
         [required] must be able to only order from 1 location in a 24-hour period with no reset
         [required] must be able to only order once every 2-hour period
         */
-        public List<Order> Orders { get; set; }
-        public long UserId { get; set; }
+        public List<Order> Orders{ get; set; }
+        public long UserID { get; set; }
         public string Name { get; set; }
 
 

@@ -17,13 +17,13 @@ namespace PizzaWorld.Domain.Models
         public ChickenPizza()
         {
             Name = "Chicken Pizza";
-            Crusts = new CrustTypes();
+            CrustTypes = new CrustTypes();
             Sizes = new Sizes();
             Toppings = new List<Topping>();
         }
         public void AddCrust(CrustTypes crust)
         {
-            Crusts = crust;
+            CrustTypes = crust;
         }
         public void AddSize(Sizes size)
         {

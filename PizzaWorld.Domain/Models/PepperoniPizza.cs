@@ -17,13 +17,13 @@ namespace PizzaWorld.Domain.Models
         public PepperoniPizza()
         {
             Name = "Pepperoni Pizza";
-            Crusts = new CrustTypes();
+            CrustTypes = new CrustTypes();
             Sizes = new Sizes();
             Toppings = new List<Topping>();
         }
         public void AddCrust(CrustTypes crust)
         {
-            Crusts = crust;
+            CrustTypes = crust;
         }
 
         public void AddSize(Sizes size)
@@ -35,7 +35,7 @@ namespace PizzaWorld.Domain.Models
         {
             Toppings = new List<Topping>(){
                 new Topping("cheese"),
-                new Topping("sauee"),
+                new Topping("sauce"),
                 new Topping("pepperoni")
             };
         }

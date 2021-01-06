@@ -6,12 +6,12 @@ namespace PizzaWorld.Domain.Abstracts
 {
     public class APizzaModel
     {
-        public CrustTypes Crusts { get; set; }
+        public CrustTypes CrustTypes { get; set; }
         public Sizes Sizes { get; set; }
         public ICollection<Topping> Toppings { get; set; }
         public double Price { get; set; }
-        public long PizzaId { get; set; }
-        public long OrderId { get; set; }
+        public long PizzaID { get; set; }
+        public long OrderID { get; set; }
         public string Name { get; set; }
         protected APizzaModel()
         {
@@ -25,11 +25,11 @@ namespace PizzaWorld.Domain.Abstracts
             {
                 sb.AppendLine(t.Name);
             }
-            return $"This is a {Name} for ${Price}:\nCrust: {Crusts.Name}\nSize: {Sizes.Name}\nToppings: {sb.ToString()}";
+            return $"This is a {Name} for ${Price}:\nCrust: {CrustTypes.Name}\nSize: {Sizes.Name}\nToppings: {sb.ToString()}";
         }
         public virtual void ComputePrice()
         {
-            Price = Crusts.Price + Sizes.Price;
+            Price = CrustTypes.Price + Sizes.Price;
         }
 
 

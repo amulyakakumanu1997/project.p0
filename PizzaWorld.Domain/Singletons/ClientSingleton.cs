@@ -11,7 +11,7 @@ namespace PizzaWorld.Domain.Singletons
 {
     public class ClientSingleton
     {
-        // private readonly string _path = @"//PizzaWorld.Client//pizzaworld.xml"; //waiting for DB
+        //private readonly string _path = @"//PizzaWorld.Client//pizzaworld.xml"; //waiting for DB
         private static ClientSingleton _instance;
         public static ClientSingleton Instance
         {
@@ -42,7 +42,6 @@ namespace PizzaWorld.Domain.Singletons
             var chicken = new ChickenPizza();
             var pep = new PepperoniPizza();
             var cheese = new CheesePizza();
-            // var cust = new CustomPizza();
             System.Console.WriteLine("Here are the pizzas this store offers:");
             System.Console.WriteLine(chicken.Name);
             System.Console.WriteLine(pep.Name);
@@ -58,7 +57,7 @@ namespace PizzaWorld.Domain.Singletons
             do
             {
                 PrintAllPizzas();
-                System.Console.WriteLine("Select a pizza, enter 5 to finish selecting");
+                System.Console.WriteLine("Select a pizza\n 1: Chicken Pizza \n 2: Pepperoni Pizza \n 3: Cheese Pizza \n 5: Finish");
                 int.TryParse(Console.ReadLine(), out int input);
                 switch (input)
                 {
@@ -113,7 +112,7 @@ namespace PizzaWorld.Domain.Singletons
         {
             while (true)
             {
-                System.Console.WriteLine("what kind of crust would you like? \n1: Small\n2: Regular\n3: Flat");
+                System.Console.WriteLine("what kind of crust would you like? \n1: Small\n2: Regular\n3: Pan");
                 int.TryParse(System.Console.ReadLine(), out int input);
                 switch(input)
                 {
@@ -129,7 +128,7 @@ namespace PizzaWorld.Domain.Singletons
                     }
                     case 3:
                     {
-                        CrustTypes crust = new CrustTypes("Flat");
+                        CrustTypes crust = new CrustTypes("Pan");
                         return crust;
                     }
                     default :

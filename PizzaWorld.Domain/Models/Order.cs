@@ -16,9 +16,9 @@ namespace PizzaWorld.Domain.Models
         */
         private GenericPizzaFactory _pizzaFactory = new GenericPizzaFactory();
         public List<APizzaModel> Pizzas { get; set; }
-        public long OrderId { get; set; }
-        public long UserId { get; set; }
-        public long StoreId { get; set; }
+        public long OrderID { get; set; }
+        public long UserID { get; set; }
+        public long StoreID { get; set; }
         public double TotalPrice
         {
             get
@@ -47,14 +47,12 @@ namespace PizzaWorld.Domain.Models
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("::: START OF ORDER :::\n");
-            sb.AppendLine("You ordered these pizzas:");
+            sb.AppendLine("You order :");
             foreach (var p in Pizzas)
             {
                 sb.AppendLine(p.ToString());
             }
-            sb.AppendLine($"Total price for this order: {TotalPrice}");
-            sb.AppendLine("::: END OF ORDER :::\n");
+            sb.AppendLine($"Total cost for this order: {TotalPrice}");
             return sb.ToString();
         }
         public double ComputePrice()
